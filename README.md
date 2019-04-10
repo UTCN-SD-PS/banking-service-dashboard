@@ -39,7 +39,7 @@ ng serve
 
 Navigate to `http://127.0.0.1:4200/`. The app will automatically reload if you change any of the source files.
 
-_**(*): Do not forget to start the [backend-service](https://github.com/UTCN-SD-PS/banking-service) before opning the dashboard in the browser**_
+_**(*): Do not forget to start the [backend-service](https://github.com/UTCN-SD-PS/banking-service) before opening the dashboard in the browser**_
 
 ### Project Structure
 
@@ -51,17 +51,25 @@ _**(*): Do not forget to start the [backend-service](https://github.com/UTCN-SD-
 │   │
 │   ├── app                 #Application source
 │   │
+│   │   ├── authentication  #Authentication Module (include login component)
+│   │   │
+│   │   ├── client          #Client Module (include clien list/details components)
+│   │   │
+│   │   ├── dashboard       #Dahsboard Module (include the application layout: header/main component)
+│   │   │
+│   │   └── shared          #Shared assets (components/models/interfaces/services)
+│   │
 │   ├── assets              #External assets (CSS, Images, Fonts, Scripts)
 │   │
 │   ├── environments        #Environment configurations (DEV and PROD)
 │   │
-│   ├── scss                #Sass files
+│   ├── scss                #Common styling files
 │   │
 │   ├── favicon.ico
 │   ├── index.html
 │   ├── main.ts
 │   ├── polyfills.ts
-│   ├── styles.scss         #Main sass file
+│   ├── styles.scss         #Main style file
 │   └── tsconfig.app.json
 │
 ├── tsconfig.json
