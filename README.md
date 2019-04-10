@@ -1,5 +1,7 @@
 # Banking Service Dashboard
 
+![banking-service-dashboard](https://user-images.githubusercontent.com/328492/55872418-9afc6e00-5b95-11e9-9e4f-e3f69786e469.gif)
+
 ## Prerequisites
 
 The following dependencies must be installed for development purpose:
