@@ -18,8 +18,10 @@ const routes: Routes = [
        * whenever the user is logged in and try to go the index (/) route
        * eg. http://localhost:4200/ will send the user to http://localhost:4200/clients */
       { path: '', redirectTo: 'clients', pathMatch: 'full' },
-      /** /clients route path configuration */
-      { path: 'clients', loadChildren: '../client/client.module#ClientModule' }
+      /** '/clients' route path configuration */
+      { path: 'clients', loadChildren: '../client/client.module#ClientModule' },
+      /** '/admin' route path config */
+      { path: 'admin', loadChildren: '../admin/admin.module#AdminModule' }
     ]
   }
 ];
